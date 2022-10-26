@@ -160,8 +160,39 @@ hr {
   color: white;
   font-weight: 300;
 }
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
+@media only screen and (max-width: 850px) and (min-width: 600px){
+    #navbar {
+      width: 820px;
+    }
+    #navbar ul{
+      margin: 0px 15px;
+    }
+    #projects {
+      padding: 30px;
+    }
+    #projects h2{
+      font-size: 30px;
+    }
+    
+    hr {
+      width: 400px;
+    }
+    #projects .project-tile {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      /* align-items: flex-start; */
+      align-content: space-around;
+      justify-content: center;
+      padding: 40px;
+    }
+    #projects .project-tile #profile-link img{
+      width: 550px;
+      height: 400px;
+      margin-top: 20px;
+    }
+    #hr-before-footer {
+      width: 814px;
     }
   }
+  
